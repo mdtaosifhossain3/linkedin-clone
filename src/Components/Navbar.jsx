@@ -10,7 +10,7 @@ import { signOut } from "firebase/auth";
 import React from 'react';
 import { useNavigate } from "react-router-dom";
 import { auth } from '../../firebase';
-import image from '../assets/Linkedin.png';
+import image from '../assets/linkedin.png';
 import Logo from '../assets/Logo.jpg';
 import { logout } from "../features/authSlice";
 import HeaderOptions from "./HeaderOptions";
